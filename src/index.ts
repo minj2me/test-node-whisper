@@ -9,8 +9,8 @@ const filePath = path.resolve(__dirname, 'test_sound.wav')
 
 const test = async () => {
     await nodewhisper(filePath, {
-        modelName: 'tiny', //Downloaded models name
-        autoDownloadModelName: 'tiny', // (optional) autodownload a model if model is not present
+        modelName: 'base', //Downloaded models name
+        autoDownloadModelName: 'base', // (optional) autodownload a model if model is not present
         verbose: true,
 	removeWavFileAfterTranscription: false,
 	whisperOptions: {
