@@ -14,7 +14,7 @@ const test = async () => {
         verbose: true,
 	removeWavFileAfterTranscription: false,
 	whisperOptions: {
-            outputInText: false, // get output result in txt file
+            outputInText: true, // get output result in txt file
             outputInVtt: false, // get output result in vtt file
             outputInSrt: true, // get output result in srt file
             outputInCsv: false, // get output result in csv file
